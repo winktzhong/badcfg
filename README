@@ -1,0 +1,36 @@
+---------------------
+libbadcfg version 0.1
+---------------------
+
+Please note: this library was written years ago.  I uploaded it mostly
+             because it is needed by SlashDoc
+
+libbadcfg is a small library that reads configuration files in the following
+form:
+
+	foo = "bar"
+	moo
+	{
+		voo = "doo"
+	}
+	spam = "no"
+	{
+		yes = "but"
+	}
+	
+The library's source code is released in Public Domain. Do whatever you want
+with it, but keep in mind that there is no warranty that it actually works.
+
+To build type:
+
+	make
+	
+To build the docs type:
+
+	make docs
+	
+
+To build the docs you'll need SlashDOC from
+	http://github.com/badsector/slashdoc
+
+Kostas Michalopoulos

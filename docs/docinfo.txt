@@ -1,0 +1,6 @@
+#
+# libbadcfg docinfo
+#
+
+title = "libbadcfg"
+sourcedir = "../include"
